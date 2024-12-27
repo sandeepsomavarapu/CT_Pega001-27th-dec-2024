@@ -1,0 +1,70 @@
+Language:
+============
+		communication
+		
+Programming Languages:
+=======================		
+		communication with machine
+
+		software -->set of programs
+
+			
+			python,c,c++,csharp,java,php......
+
+		POP				       		 OOP
+	B,BCPL,C,COBOL,PHOTON....			python,c++,csharp,java,php--oopl
+
+						1)PERFORMANCE	INHERITANCE,POLYMORPHISAM
+						2)SECURITY		ABSTRACTION,ENCAPSULATION
+					
+	JAVA		
+			
+			Platform independent
+			Garbage collection
+				oracle 				microsoft	
+		java-->JDK					.net
+
+Helloworld 						windows7   linux
+
+
+lowercase 
+
+Welcome.java
+class		
+			
+		Identifiers
+		
+			a-z
+			A-Z
+			0-9
+			$
+			_
+variables:
+==========	static typed PL
+		datatype varname=value;
+			
+			2 types
+		PDT 		NPDT		  int age=32
+
+	byte		1 byte		-128  127
+	short		2 bytes		-32768 to 32767
+	int			4			-2147483648 to 2147483647
+	long		8			-2 power 63 to (2 power 63)-1
+	
+	float		4
+	double		8
+	
+	char		2
+	boolean		1 bit
+	
+	
+
+
+
+
+
+
+
+
+
+
