@@ -55,13 +55,30 @@ variables:
 	double		8
 	
 	char		2
-	boolean		1 bit
+	boolean		1 bit tru,false 
 	
 	
+	global
 
+instance and static :
+=====================
 
+1)syntax
+		static  variables will have the keyword static
+		if there is no static keyword ie instance
+2)memory
+	 static properties will get one time memory whenever the class loading into JVM
+	 instance properties will get memory for every object creation 
+				classname objname=new classname();
 
+3)Access
+		static properties can be accessed by using class name
+		instance properties can be accessed by using obj name
+		
 
+4)When to use
+		for common properties static 
+		foru unique properties instance
 
 
 
