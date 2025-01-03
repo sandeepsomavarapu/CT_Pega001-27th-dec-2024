@@ -58,7 +58,7 @@ variables:
 	boolean		1 bit tru,false 
 	
 	
-	global
+	local,global
 
 instance and static :
 =====================
@@ -77,8 +77,179 @@ instance and static :
 		
 
 4)When to use
-		for common properties static 
-		foru unique properties instance
+		for common properties static ex:orgname,schoolname,collegename,countryname....etc
+		foru unique properties instance ex:empid,contact,aadhar.....
+methods:
+========
+		
+		m1(a,b){
+			int a=12;
+			int b=13
+			int result= a+b;
+		}
+		calling
+		
+		public static void main(String[] args) 
+		
+		//concrete method	
+	accessmodifier instance/static  returntype methodname(parameters)
+	{
+	
+	
+	}
+	//abstract method
+	accessmodifier instance/static  returntype methodname(parameters);
+	
+Flow control :
+==============
+	
+	
+	
+OOPS:
+=====
+Object Oriented Programming language
+
+			Inehritance
+			polymorphisam
+			abstaction
+			encapsulation
+			
+			
+Inehritance:
+============extends,implements :Code Reusability
+		class Test{
+		//200 methods
+		
+		}
+		class Hello extends Test{
+		
+		
+		
+		}
+
+		class -->class-->extends
+		interface-->class-->implements
+		interface --->interface -->extends
+
+
+		1)single level
+		2)multi level
+		3)hirarchie level
+		4)multiple level
+		5)hybrid level
+
+By default parent class for every java class is java.lang.Object
+By default package available for every java file is java.lang
+
+Abstraction:
+		abstract class ,interface
+		
+methods
+
+		method signature with body-->concrete/non-abstract/implemented methods
+		method signature with out body-->abstract/un-implemented methods
+		
+		
+		public void add(int a,int b)
+		{
+		....
+		....
+		...
+		}
+		
+		public abstract void sub(int a,int b);//abstract method
+		
+	class:it is a collection of only concrete methods	.
+	abstract class:it is a combination of both abstract and concrete methods.	0%-100%
+	interface:it is a collection of only abstract  methods.		100%	
+
+multiple inheritance
+		MI Not supported by java through classes
+		MI  supported by java through interfaces
+		
+		
+		interface Test{       interface Hello{
+		m1()				m1()
+		
+		...						....
+		}					}
+				class Child implementes Test,Hello
+				{
+				
+				Child ch=new Child()
+				ch.m1()
+			
+				}
+				m1()
+				{
+				
+				}
+		
+constructor
+
+		it is a special which is used to create object 
+	class Test
+	{
+	//classname objname=new constructor();
+	Test obj=new Test();
+	}
+
+
+
+polymorphisam
+
+	many forms 
+	
+	method overloading
+			method name is same signature is different 
+									 no of params
+									 order of params
+									 type params
+	
+	method overriding
+	method name is same but implementation is differernt 
+	
+	class Parent{
+	
+	1000 methods
+	}
+	
+	class Child extends Parent{
+	999
+	1
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 
 
