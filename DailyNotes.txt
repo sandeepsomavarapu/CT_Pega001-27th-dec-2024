@@ -219,7 +219,90 @@ polymorphisam
 	1
 	
 	}
+	OOPS
+	=====
+	this,super,final,accessmodifiers,encapsulation
 	
+		
+	this: it is used to represent current class properties(variable,method,object,constructor)
+	
+	super:it is used to represent parent class properties
+	
+	
+	
+	public 		-->every where
+	private		-->only inside the class 
+	protected	-->in side the package everywhere outside the package only in child 
+	default		-->package level scope
+	
+	
+	ENCAPSULATION
+		
+		
+		
+		class Employee
+		{
+		private int	eid ;
+			ename
+			esal
+			....
+		public setId(int eid){
+		this.eid=eid
+		}
+		
+		
+		}
+		Employee emp=new Employee();
+		
+	
+	
+	
+	
+	
+
+	
+			1)System defined error messages
+			
+			2)abnormal termination
+			
+	Exception handling	
+			1)User friendly error messages
+			2)normal termination
+			
+			Error
+				compile time error			public Public
+				runtime error(Exception)				invalid input 
+					
+									Throwable
+									
+							predefined 
+							AE
+							NFE
+							NPE
+							AIOE.....
+							
+			synchronous    Asynchronous				
+							
+							
+							userdefined
+							
+							
+	
+	String
+	
+	
+	
+	Collections
+	
+	multi threading
+	
+	java8
+	
+	
+	jdbc
+
+
+
 	
 	
 	
