@@ -286,9 +286,56 @@ polymorphisam
 							
 							userdefined
 							
+							try
+							catch
+							
+							try
+							finally
+							
+							
+							try 
+							finally
+							catch
+							
+							try 
+							catch
+							finally
+							finally
+							
+							
+							try
+							SOP()
+							catch
+							
+			throw and throws				
 							
 	
-	String
+	String:java.lang
+		group of chars 
+	String,StringBuffer,StringBuilder	
+			
+			"cognizant"
+	
+	
+	
+	String ---imuttable
+	
+	StringBuffer(synchronized),StringBuilder(not-synchronized)--->Muttable
+	
+	
+	
+		public void m1()
+		{													
+		
+		}
+		public synchronized void m2()
+		{
+		
+		}
+		
+				t1,t2,t3
+	
+	
 	
 	
 	
@@ -305,10 +352,26 @@ polymorphisam
 
 	
 	
+	clean org.jacoco:jacoco-maven-plugin:prepare-agent install
 	
 	
-	
-	
+	SLF4J and Log4j are both logging libraries in Java, but they have different use cases and characteristics: 
+
+SLF4J
+Stands for Simple Logging Facade for Java, and it's a facade that abstracts various logging frameworks. This allows developers to: 
+Write logging code easily 
+Switch frameworks without changing code 
+Enhance readability with parameters in log messages 
+Decouple the logging API from the actual logging implementation 
+Replace with any other logging framework in the future 
+
+Log4j
+An open-source Java-based logging utility framework that was very popular. It has: 
+A dedicated API with its own format of writing code 
+A complex format for changing to another framework 
+Solid performance 
+High configurability 
+A large and active development community 
 	
 	
 	
